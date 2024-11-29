@@ -1,4 +1,4 @@
-import pyautogui as auto
+import pyautogui as auto #type: ignore
 from time import sleep
 
 print("Welcome to PyAutoBruteForce!\n")
@@ -31,4 +31,3 @@ for actionField in range(action_elements):
   x, y = getMousePos()
   actionElementsPos[actionFieldName] = {"x": x, "y": y}
   print(f"{actionFieldName} position: x={x} y={y}")
-  
