@@ -3,7 +3,7 @@ from time import sleep
 
 print("Welcome to PyAutoBruteForce!\n")
 print("This tool is designed to automate the process of brute-forcing passwords.\n")
-print("Please note that this tool is for educational purposes only and should not be used to attack systems")
+print("Please note that this tool is for educational purposes only and should not be used to attack systems.")
 
 total_fields = int(input("Enter the number of input fields: "))
 action_elements = int(input("Enter the number of action elements (buttons and checkboxes): "))
