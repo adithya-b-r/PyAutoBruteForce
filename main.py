@@ -46,7 +46,6 @@ def autoBruteForce():
                     print(Fore.RED + "Clicking the button...")
                     mouseClick(actionElementsPos[keys[2]]['x'], actionElementsPos[keys[2]]['y'])
 
-
 def main():
     for actionField in range(action_elements):
         actionFieldName = input(Fore.CYAN + f"Enter a name for action element {actionField + 1}: ")
