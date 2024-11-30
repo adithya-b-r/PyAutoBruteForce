@@ -1,1 +1,1 @@
-{'usernameField': {'actionType': 1, 'x': 1626, 'y': 294}, 'passwordField': {'actionType': 1, 'x': 1586, 'y': 415}, 'submitBtn': {'actionType': 2, 'x': 1231, 'y': 551}}
+{'usernameField': {'actionType': 1, 'x': 1626, 'y': 294}, 'passwordField': {'actionType': 1, 'x': 1586, 'y': 415}, 'submitBtn': {'actionType': 2, 'x': 1232, 'y': 551}}

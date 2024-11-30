@@ -2,18 +2,14 @@ import pyautogui as auto #type: ignore
 from time import sleep
 from colorama import init, Fore, Back, Style #type: ignore
 
-# Initialize colorama
 init(autoreset=True)
-
 auto.FAILSAFE = True
 
-# Banner definition
 def print_banner():
     print(Fore.RED + Back.YELLOW + Style.BRIGHT + "  PyAutoBruteForce Tool  ")
     print(Fore.YELLOW + "Automates brute-forcing passwords for educational purposes only.")
     print(Fore.GREEN + "Please use responsibly!\n")
 
-# Display the banner
 print_banner()
 
 action_elements = int(input(Fore.CYAN + "Enter the number of action elements (inputs, buttons, and checkboxes): "))
